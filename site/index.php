@@ -10,7 +10,10 @@
 </head>
 <body>
 <?php
- echo "Im a big fan of the Simpsons";
+$voornaam = "Nour ";
+$achternaam = "Al-Shammari ";
+$leeftijd = "23 ";
+ echo $voornaam, $achternaam, $leeftijd;
 ?>
 </body>
 </html>
