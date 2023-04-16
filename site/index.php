@@ -14,9 +14,11 @@ $voornaam = "Nour ";
 $achternaam = "Al-Shammari ";
 $leeftijd = "23 ";
 
-$geboortejaar = "1999 ";
+echo $voornaam, $achternaam, $leeftijd;
+?> <br> 
 
- echo $voornaam, $achternaam, $leeftijd;
+<?php
+$geboortejaar = "1999 ";
 
  if($geboortejaar > 1997 && $geboortejaar < 2012){
     echo "Jij behoort tot de generatie Z, (Zoomer) ";
