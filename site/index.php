@@ -15,7 +15,24 @@ $achternaam = "Al-Shammari ";
 $leeftijd = "23 ";
 
 echo $voornaam, $achternaam, $leeftijd;
-?> <br> 
+?> <br>
+
+<?php
+$bonusGetallen = [5,6,19,32,56,99];
+$mijnGegevens = ["Bart", 78, TRUE, 3.4];
+$meervoudigeArray = [[1,2,3], [4,5,6]];
+foreach ($bonusGetallen as $item ){
+    echo $item . "\n";
+}
+foreach ($mijnGegevens as $item ){
+    echo $item . "\n";
+}
+foreach ($meervoudigeArray as $subArray ){
+    foreach ($subArray as $item) {
+    echo $item . "\n";}
+}
+?>
+<br>
 
 <?php
 $geboortejaar = "1999 ";
